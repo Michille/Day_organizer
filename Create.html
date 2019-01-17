@@ -1,0 +1,64 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<title>Day Organizer</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark justify-content-between">
+ <image style  src="images/images.png" width= "100" height= "60">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2">
+    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+
+<center><h1><div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>D</strong>ay <strong>O</strong>rganizer
+</div></h1></center>
+
+<nav aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb">
+	<li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
+	<li class="breadcrumb-item active" aria-current="page"><strong>Create</strong></li>
+    <li class="breadcrumb-item"><a href="Read.html">Read</a></li>
+    <li class="breadcrumb-item"><a href="Update.html">Update</a></li>
+    <li class="breadcrumb-item"><a href="Delete.html">Delete</a></li>
+	<li class="breadcrumb-item"><a href="ContactUs.html">Contact Us</a></li>
+  </ol>
+</nav>
+
+<br>
+<br>
+<center>
+<form>
+  <div class="form-group">
+  <div class="col-6">
+    <label for="exampleInputDate">Date:</label>
+    <input type="date">
+    <label for="exampleInputTime">Time:</label>
+    <input type="time">
+  </div>
+  <br>
+  <br>
+  <div class="form-group">
+  <div class="col-6">
+    <label for="exampleInputActivity">Planned Activity:</label>
+    <input type="text">
+  </div>
+</form>
+
+<br>
+<br>
+<br>
+
+		 <div class = "col-5">
+			<button type="button" class="btn btn-light btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="Cancel Planner"><strong>Cancel</strong></button><br>
+			<button type="button" class="btn btn-light btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="Save Planner"><strong>Save</strong></button><br>
+			</div>
+</center>
+
+</body>
+</html>
